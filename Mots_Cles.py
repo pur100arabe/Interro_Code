@@ -57,4 +57,4 @@ cles = [mot for mot in message_mots if mot not in mots_de_remplissage]
 # Tri des clés
 cles_tries = sorted(set(cles))
 
-cles_tries
+print(cles_tries)
